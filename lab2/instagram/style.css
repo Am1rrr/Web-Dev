@@ -10,8 +10,8 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 754px;
-    margin-top: 32px;
+    height: 654px;
+    margin-top: 12px;
 }
 
 .left{
@@ -26,15 +26,16 @@ input{
 .img1{
     bottom: 10px;
     position: relative;
-    border: 7px solid black;
+    border: 7px solid black; 
     border-radius: 12px;
     z-index: 1;
+    /* z-index: 2; */
 }
 
 .img2{
     position: relative;
-    border: 7px solid black;
-    border-radius: 12px;
+    border: 7px solid black; 
+    border-radius: 12px; 
     z-index: 2;
     right: 170px;
     top: 15px
@@ -157,10 +158,10 @@ button{
 
 footer{
     /* background-color: #727272; */
-    height: 300px;
+    height: 120px;
 }
 
-ul{
+ul{ 
     list-style: none;
     text-align: center;
     font-size: 12px;
@@ -170,10 +171,12 @@ ul{
 li{
     display: inline-block;
     margin: 10px;
+    margin-right: 30px;
 }
 
 li select{
     font-size: 12px;
     color: #727272;
     border: 0;
+    margin-right: -29px;
 }

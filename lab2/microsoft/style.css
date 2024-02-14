@@ -11,6 +11,7 @@ body{
 .header{
     display: flex;
     align-items: center;
+    position: sticky;
     justify-content: space-between;
 }
 
@@ -19,12 +20,14 @@ body{
     height: 54px;
     display: flex;
     align-items: center;
+    position: sticky;
     justify-content: space-evenly;
     padding: 0 100px;
 }
 
 .header-left{
     width: max-content;
+    position: sticky;
 }
 
 .header-img{
@@ -36,6 +39,7 @@ body{
     font-size: 13px;
     color: #262626;
     margin: 0 15px;
+    position: sticky;
 }
 
 
@@ -49,6 +53,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     padding-right: 150px;
+    position: sticky;
 }
 
 .header-right .header-elem{
@@ -69,7 +74,8 @@ body{
     height: auto;
     position: absolute;
     top: 30%;
-    right: 60%;
+    /* right: 60%; */
+    margin-left: 95px;
     color: white;
 }
 
@@ -94,29 +100,47 @@ body{
 }
 
 
-.footer{
-    width: 100%;
-    margin: 150px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* .footer{
+    /* width: 0%; */
+    /* margin: 150px 10px; */
+    /* margin-top: 50px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content:space-between; */
+
 
 .footer-imgs{
-    width: 85%;
+    /* width: 50%; */
+    /* width: 320px; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    padding: 0px 60px 0px 60px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+/* .footer-img{
+    justify-content: space-between;
+} */
+
+.footer-img {
+    width: 320px;
+}
+
+.footer-img img{
+    width: 320px;
 }
 
 .footer-img h2{
-    flex: 1 1 auto;
-    font-size: 29px;
+    /* flex: 1 1 auto; */
+    /* font-size: 29px; */
     font-weight: 500;
-    margin: 10px 0;
+    /* margin: 10px 0;  */
 }
 
 .footer-img p{
-    width: 380px;
     height: auto;
 }
 
